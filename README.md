@@ -3,6 +3,6 @@
 
 ### Finished Projects
 
-|Difficulty | |
-|---|---|
-| Newbie | :star: |
+|Difficulty | | |
+|---|---|---|
+| Newbie | :star: | [Result Summary Component](https://result-summary-component-main-powreze.netlify.app/)
