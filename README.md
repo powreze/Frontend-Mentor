@@ -3,7 +3,7 @@
 
 ### Finished Projects
 
-|Difficulty | | |
+|Difficulty | | Task |
 |---|---|---|
-| Newbie | :star: | [Result Summary Component](https://result-summary-component-main-powreze.netlify.app/)
-| Newbie | :star: | [Product Preview Card](https://product-preview-card-powreze.netlify.app/)
+| Newbie | :star: | [Result Summary Component](https://result-summary-component-main-powreze.netlify.app/) |
+| | | [Product Preview Card](https://product-preview-card-powreze.netlify.app/) |
