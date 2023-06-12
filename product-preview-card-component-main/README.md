@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [solution](https://www.frontendmentor.io/solutions/product-preview-card-component--Ak1qyz_mt)
-- [live site](https://your-live-site-url.com)
+- [live site](https://product-preview-card-powreze.netlify.app/)
 
 ### Built with
 
