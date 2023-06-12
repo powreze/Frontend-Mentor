@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [solution](https://your-solution-url.com)
+- [solution](https://www.frontendmentor.io/solutions/product-preview-card-component--Ak1qyz_mt)
 - [live site](https://your-live-site-url.com)
 
 ### Built with
