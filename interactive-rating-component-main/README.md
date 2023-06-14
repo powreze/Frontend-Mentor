@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Screenshot
 
-![preview](/interactive-rating-component-main/screenshots/preview.mp4)
 ![Desktop view page 1](/interactive-rating-component-main/screenshots/desktop-view-1.jpeg)
 ![Desktop view page 2](/interactive-rating-component-main/screenshots/desktop-view-2.jpeg)
 ![Mobile view page 1](/interactive-rating-component-main/screenshots/mobile-view-1.jpeg)
