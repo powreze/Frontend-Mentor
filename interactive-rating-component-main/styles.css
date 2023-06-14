@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --little-dark-blue: hsl(213, 19%, 18%);
+    --dark-blue: hsl(213, 19%, 14%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background: var(--very-dark-blue);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 20rem;
+    border-radius: 30px;
+    background: var(--dark-blue);
+    padding: 30px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.one {
+    display: block;
+}
+
+.symbol {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--little-dark-blue);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol img {
+    width: 50%;
+}
+
+.text {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.text h1 {
+    color: var(--white);
+}
+
+.text p {
+    color: var(--light-grey);
+    font-size: 15px;
+}
+
+.numbers {
+    margin-bottom: 2rem;
+}
+
+.numbers ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.numbers li {
+    list-style-type: none;
+    border-radius: 50%;
+    background: var(--little-dark-blue);
+    display: flex;
+    align-items: center;
+}
+
+.numbers li button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--light-grey);
+    background: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.numbers li button:hover {
+    color: var(--white);
+    background: var(--orange);
+}
+
+.numbers li button:focus {
+    color: var(--white);
+    background: var(--light-grey);
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background: var(--orange);
+    color: var(--white);
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: var(--light-grey);
+}
+
+.two {
+    display: none !important;
+}
+
+.container .two .icon, .rating, .result {
+    text-align: center;
+}
+
+.container .rating {
+    margin-top: 1rem;
+    border-radius: 30px;
+    background: var(--little-dark-blue);
+}
+
+.container .rating p {
+    padding: 0 15px 0 15px;
+    color: var(--orange);
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.container .result h1 {
+    color: var(--white);
+}
+
+.container .result p {
+    color: var(--light-grey);
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+footer {
+    margin-top: 3rem;
+    background: var(--orange);
+}
+
+.attribution { 
+    padding: 5px;
+    font-size: 11px; 
+    text-align: center;
+    color: var(--white);
+}
+
+.attribution a { 
+    color: var(--very-dark-blue); 
+}
