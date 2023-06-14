@@ -158,7 +158,8 @@ main {
 }
 
 footer {
-    margin-top: 3rem;
+    position: fixed;
+    bottom: 1em;
     background: var(--orange);
 }
 
