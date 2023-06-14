@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-il6jwcT4fk)
 - [Live site](https://interactive-rating-component-powreze.netlify.app/)
 
 ### Built with
