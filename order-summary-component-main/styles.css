@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(/images/pattern-background-desktop.svg) no-repeat, var(--pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    max-width: 25rem;
+    background: var(--very-pale-blue);
+    border-radius: 20px;
+}
+
+.container .header img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.container .content h1 {
+    color: var(--dark-blue);
+}
+
+.container .content p {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--desaturated-blue);
+} 
+
+.container .content .price {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    background: hsla(225, 100%, 94%, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.container .content .price li {
+    margin-left: 0.8em;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.container .content .price li:nth-child(1) {
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.container .content .price li:nth-child(2) {
+    color: var(--desaturated-blue);
+}
+
+.container .content .price a {
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto 5em;
+    cursor: pointer;
+}
+
+.container .content .price a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.container .content .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.container .content .buttons button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+    background: var(--bright-blue);
+    color: var(--pale-blue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .content .buttons button:hover {
+    opacity: 0.8;  
+}
+
+.container .content .buttons a {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .content .buttons a:hover {
+    color: var(--dark-blue);
+}
+
+footer {
+    position: fixed;
+    bottom: 0.2em;
+    padding: 2px;
+    background: var(--dark-blue);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--pale-blue);
+}
+.attribution a { 
+    color: var(--desaturated-blue); 
+}
+
+@media screen and (max-width:680px) { 
+    body {
+        background: url(/images/pattern-background-mobile.svg) no-repeat, var(--pale-blue);
+    }
+
+    main {
+        max-width: 22rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 12px;
+    }
+
+    main {
+        max-width: 15rem;
+    }
+
+    .container .content {
+        padding: 5px;
+    }
+
+    .container .content .price img {
+        width: 35px;
+    }
+
+    .container .content .price li {
+        font-size: 12px;
+    }
+
+    .container .content .price a {
+        font-size: 10px;
+        margin-left: 5em;
+    }
+
+    .container .content .buttons button {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .container .content .buttons a {
+        margin-top: 0.5rem;
+        font-size: 12px;
+    }
+}
