@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(/images/pattern-background-desktop.svg) no-repeat, var(--pale-blue);
+    background: url(./images/pattern-background-desktop.svg) no-repeat, var(--pale-blue);
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -82,6 +82,7 @@ main {
     font-weight: bold;
     margin: auto 5em;
     cursor: pointer;
+    color: var(--bright-blue);
 }
 
 .container .content .price a:hover {
@@ -144,11 +145,15 @@ footer {
 
 @media screen and (max-width:680px) { 
     body {
-        background: url(/images/pattern-background-mobile.svg) no-repeat, var(--pale-blue);
+        background: url(./images/pattern-background-mobile.svg) no-repeat, var(--pale-blue);
     }
 
     main {
         max-width: 22rem;
+    }
+
+    .container .content {
+        padding: 30px;
     }
 }
 
