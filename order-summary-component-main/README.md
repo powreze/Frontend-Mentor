@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [solution](https://your-solution-url.com)
+- [solution](https://www.frontendmentor.io/solutions/order-summary-card-gHLfc9J8KV)
 - [live site](https://order-summary-component-powreze.netlify.app/)
 
 ### Built with
