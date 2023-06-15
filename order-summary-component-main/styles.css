@@ -66,6 +66,7 @@ main {
     margin-left: 0.8em;
     list-style-type: none;
     font-size: 14px;
+    line-height: 1.6;
 }
 
 .container .content .price li:nth-child(1) {
