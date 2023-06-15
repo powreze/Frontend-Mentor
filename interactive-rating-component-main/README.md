@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view page 1](/interactive-rating-component-main/screenshots/desktop-view-1.jpeg)
-![Desktop view page 2](/interactive-rating-component-main/screenshots/desktop-view-2.jpeg)
-![Mobile view page 1](/interactive-rating-component-main/screenshots/mobile-view-1.jpeg)
-![Mobile view page 2](/interactive-rating-component-main/screenshots/mobile-view-2.jpeg)
+![Desktop view page 1](./screenshots/desktop-view-1.jpeg)
+![Desktop view page 2](./screenshots/desktop-view-2.jpeg)
+![Mobile view page 1](./screenshots/mobile-view-1.jpeg)
+![Mobile view page 2](./screenshots/mobile-view-2.jpeg)
 
 ### Links
 
