@@ -85,21 +85,21 @@ article .right {
     position: relative;
 }
 
-article .right img {
-    max-width: 100%;
-    max-height: 100%;
+picture {
     display: block;
+    background: var(--soft-violet);
     border-radius: 0 8px 8px 0;
 }
 
-article .right .color {
+article .right img {
     width: 100%;
-    height: 100%;
-    border-radius: 0 8px 8px 0;
-    background: hsl(295, 48%, 24%);
-    position: absolute;
-    top: 0;
+    display: block;
+    object-fit: cover;
+}
+
+.image {
     opacity: 0.7;
+    mix-blend-mode: multiply;
 }
 
 footer {
@@ -150,15 +150,7 @@ footer {
         order: 1;
     }
 
-    article .right img {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-radius: 8px 8px 0 0;
-    }
-
-    article .right .color {
-        width: 100%;
+    picture {
         border-radius: 8px 8px 0 0;
     }
 
