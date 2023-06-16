@@ -9,3 +9,4 @@
 | | :star: | [Product Preview Card](https://product-preview-card-powreze.netlify.app/) |
 | | :star: | [Interactive Rating Component](https://interactive-rating-component-powreze.netlify.app/) |
 | | :star: | [Order Summary Card](https://order-summary-component-powreze.netlify.app/) |
+| | :star: | [Stats Preview Card](https://stats-preview-card-powreze.netlify.app/) |
