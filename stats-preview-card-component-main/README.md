@@ -40,7 +40,7 @@ Users should be able to:
 
 ### What I learned
 
-In this task, I have a trouble with adding different color in the image. I tried to add a <div> and set the position to absolute to make the <div> above of the image. Then I added a color and set opacity to make the image visible.
+In this task, I have a trouble with adding different color in the image. I tried to add a div and set the position to absolute to make the div above of the image. Then I added a color and set opacity to make the image visible.
 
 ```css
 background: hsl(295, 48%, 24%);
