@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 50rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .left {
+    border-radius: 8px 0 0 8px;
+    background: var(--bright-orange);
+}
+
+.container .middle {
+    background: var(--dark-cyan);
+}
+
+.container .right {
+    border-radius: 0 8px 8px 0;
+    background: var(--very-dark-cyan);
+}
+
+.container .left, .middle, .right {
+    padding: 2rem;
+}
+
+.container h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--very-light-gray);
+    margin-top: 2rem;
+}
+
+.container p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 2;
+}
+
+button {
+    margin-top: 4rem;
+    width: 10rem;
+    padding: 1rem;
+    background-color: transparent;
+    color: var(--transparent-white);
+    border: 2px solid;
+    border-color: var(--transparent-white);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--very-light-gray);
+}
+
+.left button:hover {
+    color: var(--bright-orange);
+}
+
+.middle button:hover {
+    color: var(--dark-cyan);
+}
+
+.right button:hover {
+    color: var(--very-dark-cyan);
+}
+
+footer {
+    position: fixed;
+    bottom: 0.5em;
+    width: 30%;
+    padding: 10px;
+    background: var(--bright-orange);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer .attribution {
+    font-size: 12px; 
+    text-align: center;
+    color: var(--dark-cyan);
+    font-weight: bold;
+}
+
+.attribution a { 
+    color: var(--very-dark-cyan); 
+}
+
+@media screen and (max-width:600px) {
+    main {
+        margin: 50px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .container .left {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .container .right {
+        border-radius: 0 0 8px 8px;
+    }
+
+    footer {
+        width: 75%;
+        padding: 0;
+        bottom: 0.2em;
+    }
+
+    footer .attribution {
+        font-size: 10px;
+    }
+}
