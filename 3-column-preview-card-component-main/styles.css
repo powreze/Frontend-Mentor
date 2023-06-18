@@ -67,28 +67,28 @@ button {
     margin-top: 4rem;
     width: 10rem;
     padding: 1rem;
-    background-color: transparent;
-    color: var(--transparent-white);
+    background-color: var(--transparent-white);
     border: 2px solid;
     border-color: var(--transparent-white);
     border-radius: 40px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: var(--very-light-gray);
-}
-
-.left button:hover {
+.left button {
     color: var(--bright-orange);
 }
 
-.middle button:hover {
+.middle button {
     color: var(--dark-cyan);
 }
 
-.right button:hover {
+.right button {
     color: var(--very-dark-cyan);
+}
+
+button:hover {
+    background: transparent;
+    color: var(--transparent-white);
 }
 
 footer {
