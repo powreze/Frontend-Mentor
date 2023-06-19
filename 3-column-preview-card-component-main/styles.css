@@ -49,10 +49,11 @@ main {
     padding: 2rem;
 }
 
-.container h1 {
+.container h2 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--very-light-gray);
     margin-top: 2rem;
+    font-size: 40px;
 }
 
 .container p {
