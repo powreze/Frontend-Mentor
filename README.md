@@ -10,3 +10,4 @@
 | | :star: | [Interactive Rating Component](https://interactive-rating-component-powreze.netlify.app/) |
 | | :star: | [Order Summary Card](https://order-summary-component-powreze.netlify.app/) |
 | | :star: | [Stats Preview Card](https://stats-preview-card-powreze.netlify.app/) |
+| | :star: | [3 Column Preview Card](https://3-column-preview-card-powreze.netlify.app/) |
