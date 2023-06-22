@@ -1,5 +1,5 @@
 # Frontend-Mentor
- This repository will contains some challenges from Frontend Mentor
+ This repository contains some challenges from Frontend Mentor
 
 ### Finished Projects
 
