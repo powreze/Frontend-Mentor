@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+     
+    max-width: 420px;
+}
+
+.container .bg-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .bg-card .image-1 {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.container .bg-card .image-2 {
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    border: solid 5px white;
+    top: 6rem;
+}
+
+.container .content {
+    max-width: 420px;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container .content .data {
+    margin-top: 4.5rem;
+}
+
+.content b {
+    font-size: 20px;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.content b span {
+    margin-left: 10px;
+    color: var(--dark-gray);
+    font-weight: lighter;
+}
+
+.content p {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.content .list {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 0.3px solid rgba(191, 185, 185, 0.5);
+}
+
+.container .content .list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    padding: 0 10%;
+}
+
+.container .content .list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.container .content li span {
+    margin-top: 0.3rem;
+    font-weight: lighter;
+    font-size: 12px;
+    color: var(--dark-gray);
+    letter-spacing: 1.5px;
+}
+
+footer {
+    max-width: 85%;
+    position: fixed;
+    bottom: 1em;
+    background: white;
+}
+
+.attribution {
+    padding: 8px;
+    font-size: 11px; 
+    text-align: center;
+    font-weight: bold;
+}
+    
+.attribution a { 
+    color: var(--dark-grayish-blue);
+}
